@@ -1,0 +1,404 @@
+@media (max-width: 1440px) {
+    .navbar-brand img {
+        width: 230px;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .navbar-brand img {
+        max-width: 254px;
+        /* height: 62px; */
+    }
+}
+
+@media (max-width: 1169px) {
+    .navbar-brand img {
+        width: 170px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .navbar-toggler {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(198, 148, 56, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+    }
+
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        text-decoration: none;
+        outline: none;
+    }
+}
+
+
+@media only screen and (max-width: 800px) and (min-width:300px) {
+
+    .index-hero-section {
+        width: 100%;
+        padding-bottom: 35%;
+        padding-left: 8%;
+        padding-top: 10%;
+    }
+
+    .index-hero-section-buttons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .index-hero-section-text h1 {
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .index-hero-section-text p {
+        text-align: left;
+        font-size: 1rem;
+        padding-left: 0%;
+        line-height: 2;
+    }
+
+    .index-second-section-first-div-row2{
+        margin-top: 100% !important; 
+    }
+    .our-products-second-section{
+       background-image: url("../../assets/images/ourproducts/opphoneback.png");
+    }
+    .our-products-second-section-first-div-row2{
+        margin-top: 100% !important; 
+    }
+
+    .index-second-section-first-div-card-center-img {
+        top: 41.7%;
+        left: 0%;
+        transform: translate(0%, 0%);
+    }
+    
+    .index-second-section-first-div-card-center-img img {
+        width: 100%;
+    }
+    .our-products-second-section-first-div-card-center-img {
+        top: 41.7%;
+        left: 0%;
+        transform: translate(0%, 0%);
+    }
+    
+    .our-products-second-section-first-div-card-center-img img {
+        width: 100%;
+    }
+
+    .index-second-section-second-div {
+        padding-top: 40%;
+        width: 100%;
+    }
+
+
+    .index-third-section-text p {
+        font-size: 15px;
+    }
+
+
+    .index-fourth-section-first-div {
+        width: 100%;
+    }
+}
+
+/* rd starts here */
+
+@media (max-width:1160px) and (min-width:760px) {
+            
+
+    .left-grid img{
+        position: relative;
+        left: -385px
+    }
+}
+
+
+
+@media (max-width:760px) and (min-width:400px) {
+    
+
+    .RD-top-section-heading {
+        text-align: center;
+        height: 10vh;
+        color: #6A4500;
+    }
+
+    .left-grid {
+        display: none;
+    }
+
+    .right-grid {
+        display: none;
+    }
+
+
+
+
+
+
+
+    .RD-text-container-right {
+        padding: 0 !important;
+        width: 100%;
+        margin: auto;
+
+
+    }
+
+    .RD-top-section-text-div {
+        position: relative;
+        padding-bottom: 40px;
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+
+
+    .RD-second-top-section {
+        background-color: rgb(46 40 38);
+        width: 100%;
+        background-image: none;
+    }
+
+
+    .RD-second-section-text-container {
+        width: 100%;
+        margin: auto;
+        color: #FAEAD3;
+        margin-bottom: 70px;
+
+    }
+
+
+    .RD-contact-us-div {
+        padding: 0 !important;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .first-RD-image-container-div {
+        width: 100%;
+        margin: auto;
+    }
+
+    .first-RD-image-container-div img {
+        width: 70%;
+        margin-left: 50px;
+
+    }
+}
+
+/* footer after this  */
+
+
+@media (max-width:1160px) and (min-width:760px) {
+    .broucher {
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        height: 60px;
+        width: 80%;
+    }
+
+    .footer-logo {
+        width: 120%;
+        top: 0;
+    }
+}
+
+@media (max-width:760px) and (min-width:400px) {
+    .broucher {
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        /* height: 40px; */
+        width: fit-content;
+    }
+
+    .footer-logo {
+        top: 0;
+    }
+}
+
+@media (max-width:760px) and (min-width:400px) {
+    .broucher {
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        /* height: 40px; */
+        width: fit-content;
+    }
+
+    .footer-logo {
+        /* width: 10%; */
+        top: 0;
+    }
+
+    .footer-second-div-connect {
+        padding-top: 10px;
+        color: #FAEAD3;
+
+    }
+
+    .footer-second-div {
+        padding-top: 10px;
+        color: #FAEAD3;
+        padding-left: 70px;
+
+    }
+    .text-container-left-div {
+        width: 100%;
+        margin: auto;
+        padding-left: 50px;
+    }
+    .about-us-background-img{
+        display: none;
+    }
+}
+@media (max-width:575px) {
+    .about-us-top-section-logo img{
+        display: none;
+    }
+
+    .area-of-use-contact{
+        display: none;
+        padding: 0 !important;
+    }
+    .index-third-section-text{
+        margin-top: 10%;
+    }
+    .area-of-use-heading{
+        text-align: center;
+        font-size: 1.75rem !important;
+    }
+    .text-container-left-div {
+        width: 100%;
+        margin: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .text-container-left-div-products {
+        width: 100%;
+        margin: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .our-products-second-section-second-div{
+        margin-top: 100px ;
+    }
+    .our-products-third-top-section{
+        background-color: rgb(46 40 38);
+        background-image: none;
+        background-size: 100% 100vh;
+    }
+    .about-us-second-top-section{
+        width: 100%;
+        padding-bottom: 0%;
+    }
+
+    .about-us-background-img{
+        display: none;
+    }
+    .about-us-third-top-section {
+        background-color: rgb(46 40 38);
+        display: none;
+    
+    }
+    
+    .about-us-third-mobile-top-section {
+        background-color: rgb(46 40 38);
+        display: contents;
+    }
+    
+}
+@media (max-width:500px) {
+    .RD-text-container-right {
+        padding: 0 !important;
+        width: 100%;
+        margin-right: auto;
+
+
+    }
+    .text-container-right {
+        padding: 0 !important;
+        width: 80%;
+        margin: auto;
+    
+    }
+    .our-product-contact-us{
+        text-align: center;
+    }
+    .broucher {
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        /* height: 40px; */
+        width: fit-content;
+    }
+
+    .footer-logo {
+        /* width: 10%; */
+        top: 0;
+        width: 100%;
+    }
+
+    .footer-second-div-connect {
+        padding-top: 10px;
+        color: #FAEAD3;
+
+    }
+
+    .footer-second-div {
+        padding-top: 10px;
+        color: #FAEAD3;
+        padding-left: 70px;
+
+    }
+
+    .footer-icons {
+        width: 5% !important;
+    }
+    .footer-second-div-no-padding{
+        padding: 0 !important;
+    }
+    .RD-top-section{
+        padding-top: 50px;
+    }
+    .contact-us-button-nav {
+        background: -webkit-linear-gradient(right, #EFD581, #B7872D);
+        border: none;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 21px;
+        cursor: pointer;
+        color: white;
+        font-family: "Raleway SemiBold", sans-serif;
+        height: 42.3px;
+        width: 145px;
+    
+    }
+    .RD-second-top-section {
+        background-color: rgb(46 40 38);
+        background-image: none;
+        /* background-position: center; */
+        text-align: center;
+        overflow: hidden;
+
+
+    }
+
+}
